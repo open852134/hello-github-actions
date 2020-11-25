@@ -10,14 +10,9 @@
     "airbnb-base"
   ],
   "plugins": [
-    "prettier",
-    "emotion"
+    "prettier"
   ],
   "rules": {
-    "emotion/jsx-import": "error",
-    "emotion/no-vanilla": "error",
-    "emotion/import-from-emotion": "error",
-    "emotion/styled-import": "error",
     "linebreak-style": 0,
     "no-unused-vars": [
       "warn",
@@ -40,7 +35,7 @@
       "error",
       "never"
     ],
-    "no-console": 2,
+    "no-console": "error",
     "object-curly-newline": 0,
     "arrow-parens": 0,
     "import/no-extraneous-dependencies": 0,
