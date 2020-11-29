@@ -2,6 +2,11 @@ name: Lint
 
 on: pull_request
 
+inputs:
+  reviewdog_version:
+    description: 'reviewdog version.latest'
+    default: 'latest'
+
 jobs:
   eslint:
     runs-on: ubuntu-latest
