@@ -16,5 +16,8 @@ jobs:
           eslint-rc: .eslintrc
           execute-on-files:
             - ./packages
+
+jobs:
+    steps:
       - uses: reviewdog/action-setup@v1
       - run: reviewdog -version
